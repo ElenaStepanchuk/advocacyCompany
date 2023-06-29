@@ -4,20 +4,20 @@ import css from './navList.css';
 
 const NavList = () => {
   return (
-    <>
+    <div className="navLink_container">
       <NavLink to="home" className="nav_link">
-        Home
+        Главная
       </NavLink>
       <NavLink to="about" className="nav_link">
-        About
+        Про&nbsp;&nbsp;нас
       </NavLink>
       <NavLink to="services" className="nav_link">
-        Services
+        Наши&nbsp;&nbsp;услуги
       </NavLink>
       <NavLink to="contact" className="nav_link">
-        Contact
+        Контакты
       </NavLink>
-    </>
+    </div>
   );
 };
 export default NavList;

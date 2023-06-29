@@ -1,7 +1,61 @@
+.headerUp_container {
+  display: flex;
+  /* justify-content: space-between; */
+  text-align: center;
+  margin: 0 auto;
+
+  width: 1200px;
+}
 .logotype_png {
-  height: 200px;
+  height: 90px;
+}
+
+.logo_container {
+  margin: 0;
+  padding: 10px 0;
 }
 .icon {
-  width: 35px;
-  height: 35px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  width: 28px;
+  height: 28px;
+}
+.phone_container,
+.mail_container {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+}
+.phone_container {
+  margin-left: auto;
+
+  border-right: 2px solid #ededed;
+
+  padding-right: 30px;
+}
+.phone_span {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  color: #727272;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+.mail_link {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  color: #727272;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
 }

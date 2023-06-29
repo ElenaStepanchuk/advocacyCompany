@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import { Navigation, HeaderUp } from 'components';
+import { Navigation, HeaderUp, Container } from 'components';
+import css from './header.module.css';
 
 const Header = () => {
   return (
@@ -17,5 +18,5 @@ const Header = () => {
 export default Header;
 
 const HeaderWrapper = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className={css.header_container}>{children}</div>;
 };

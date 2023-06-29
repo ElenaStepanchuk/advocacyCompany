@@ -1,5 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
+import css from './app.css';
 
 import { Header, Loader, Footer } from '../components';
 
@@ -10,7 +11,7 @@ const Services = lazy(() => import('../pages/services/Services'));
 
 export const App = () => {
   return (
-    <>
+    <div class="page">
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
@@ -22,6 +23,6 @@ export const App = () => {
         </Routes>
       </Suspense>
       <Footer />
-    </>
+    </div>
   );
 };

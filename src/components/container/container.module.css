@@ -1,8 +1,13 @@
 .container {
-  display: flex;
+  /* display: flex; */
   position: relative;
-  background-color: #d4e7d4;
   margin-left: auto;
   margin-right: auto;
-  /* height: calc(100vh - 200px); */
+  width: 1200px;
+  /* flex: 1 1 auto; */
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }

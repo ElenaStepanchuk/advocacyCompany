@@ -1,12 +1,13 @@
-import { Container } from 'components';
+import { Container, AboutComponent } from 'components';
+import css from './about.module.css';
 
 const About = () => {
   return (
-    <>
-      <Container>
-        <h1>About</h1>
-      </Container>
-    </>
+    <div className={css.container_about}>
+      {/* <Container> */}
+      <AboutComponent />
+      {/* </Container> */}
+    </div>
   );
 };
 export default About;

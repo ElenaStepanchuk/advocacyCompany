@@ -5,3 +5,5 @@ export { default as Loader } from '../components/loader/Loader';
 export { default as Footer } from './footer/Footer';
 export { default as Container } from './container/Container';
 export { default as HeaderUp } from './headerUp/HeaderUp';
+export { default as Slider } from './slider/Slider';
+export { default as AboutComponent } from './aboutComponent/AboutComponent';

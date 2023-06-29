@@ -1,10 +1,9 @@
-import { Container } from 'components';
+import { Slider } from 'components';
+
 const Home = () => {
   return (
     <>
-      <Container>
-        <h1>Home</h1>
-      </Container>
+      <Slider />
     </>
   );
 };
