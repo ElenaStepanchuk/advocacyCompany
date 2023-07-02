@@ -1,0 +1,388 @@
+.container {
+  position: relative;
+  overflow: hidden;
+}
+.backdrop {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 400px;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url('../../img/homePage/background.png');
+    background-size: 100%;
+  }
+
+  33% {
+    background-image: url('../../img/homePage/background.png');
+    background-size: 150%;
+  }
+
+  66% {
+    background-image: url('../../img/homePage/background.png');
+    background-size: 100%;
+  }
+  67% {
+    background-image: url('../../img/homePage/backgroundFemida.jpg');
+    background-size: 100%;
+  }
+  100% {
+    background-size: 150%;
+    background-image: url('../../img/homePage/backgroundFemida.jpg');
+  }
+}
+.background {
+  height: 400px;
+  background-size: cover;
+  background-image: url('../../img/homePage/background.png');
+  animation-duration: 30s;
+  animation-name: backgroundAnimation;
+}
+@keyframes textContainerAnimation1 {
+  0% {
+    top: 100px;
+  }
+  90% {
+    top: 100px;
+  }
+  100% {
+    top: 450px;
+  }
+}
+
+.text_container1 {
+  position: absolute;
+  top: 450px;
+  left: 150px;
+  animation-duration: 9s;
+  animation-name: textContainerAnimation1;
+}
+@keyframes textAnimation1 {
+  0% {
+    color: transparent;
+    margin-top: 40px;
+    margin-left: 130px;
+  }
+  10% {
+    color: transparent;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+
+  50% {
+    color: #000000;
+    margin-top: 0;
+  }
+}
+
+@keyframes textAnimation2 {
+  0% {
+    color: transparent;
+    margin-top: 40px;
+  }
+
+  50% {
+    color: #057192;
+    margin-top: 0;
+  }
+}
+
+.text1 {
+  color: #000000;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  animation-duration: 5s;
+  animation-name: textAnimation1;
+}
+.text2 {
+  color: #057192;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  animation-duration: 5s;
+  animation-name: textAnimation2;
+}
+@keyframes img1 {
+  0% {
+    top: 400px;
+  }
+
+  10% {
+    top: 100px;
+  }
+  90% {
+    top: 100px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+.img_container1 {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  animation-duration: 9s;
+  animation-name: img1;
+}
+.img1 {
+  width: 800px;
+}
+/* //////////////// */
+
+@keyframes textContainerAnimation2 {
+  0% {
+    top: 10px;
+    color: transparent;
+  }
+
+  60% {
+    top: 10px;
+  }
+  90% {
+    top: 10px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+.text_container2 {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-name: textContainerAnimation2;
+}
+
+@keyframes textAnimation3 {
+  0% {
+    color: transparent;
+    margin-top: -20px;
+    margin-left: 30px;
+  }
+
+  20% {
+    color: #057192;
+  }
+  40% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@keyframes textAnimation4 {
+  0% {
+    color: transparent;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  20% {
+    color: #000000;
+  }
+  40% {
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+.text3 {
+  color: #057192;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  animation-duration: 5s;
+  animation-name: textAnimation3;
+  animation-delay: 10s;
+}
+.text4 {
+  color: #000000;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  animation-duration: 5s;
+  animation-name: textAnimation4;
+  animation-delay: 10s;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 8px;
+
+  background: #057192;
+
+  border-radius: 5px;
+  border: none;
+
+  text-align: center;
+}
+.button__link {
+  color: #ffffff;
+
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+}
+
+@keyframes slide2 {
+  0% {
+    top: 400px;
+  }
+
+  10% {
+    top: 10px;
+  }
+  90% {
+    top: 10px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+.img_container2 {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  animation-delay: 10s;
+  animation-duration: 9s;
+  animation-name: slide2;
+}
+.img2 {
+  height: 380px;
+}
+/* //////////////// */
+@keyframes textContainerAnimation3 {
+  0% {
+    top: 100px;
+    color: transparent;
+  }
+
+  /* 60% {
+    top: 100px;
+  } */
+  90% {
+    top: 100px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+.text_container3 {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  animation-delay: 20s;
+  animation-duration: 9s;
+  animation-name: textContainerAnimation3;
+}
+@keyframes textAnimation5 {
+  0% {
+    color: transparent;
+    margin-top: -20px;
+    margin-left: 30px;
+  }
+
+  20% {
+    color: #057192;
+  }
+  40% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@keyframes textAnimation6 {
+  0% {
+    color: transparent;
+    margin-top: 10px;
+    margin-right: 30px;
+  }
+
+  20% {
+    color: #000000;
+  }
+  40% {
+    margin-top: 0;
+    margin-right: 0;
+  }
+}
+.text5 {
+  color: #000000;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  animation-duration: 5s;
+  animation-name: textAnimation5;
+  animation-delay: 20s;
+}
+.text6 {
+  color: #057192;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+
+  animation-duration: 5s;
+  animation-name: textAnimation6;
+  animation-delay: 20s;
+}
+
+@keyframes img3 {
+  0% {
+    top: 400px;
+  }
+
+  10% {
+    top: 10px;
+  }
+  90% {
+    top: 10px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+.img_container3 {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  animation-duration: 9s;
+  animation-name: img3;
+  animation-delay: 20s;
+}
+.img3 {
+  /* width: 800px; */
+}

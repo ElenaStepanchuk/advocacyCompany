@@ -1,9 +1,10 @@
-import { Slider } from 'components';
+import { Slider, HomeBunner } from 'components';
 
 const Home = () => {
   return (
     <>
-      <Slider />
+      {/* <Slider /> */}
+      <HomeBunner />
     </>
   );
 };
