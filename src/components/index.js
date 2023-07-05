@@ -8,3 +8,4 @@ export { default as HeaderUp } from './headerUp/HeaderUp';
 export { default as Slider } from './slider/Slider';
 export { default as AboutComponent } from './aboutComponent/AboutComponent';
 export { default as HomeBunner } from './homeBunner/HomeBunner';
+export { default as HomeContext } from './homeContext/HomeContext';

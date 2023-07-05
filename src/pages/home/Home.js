@@ -1,10 +1,11 @@
-import { Slider, HomeBunner } from 'components';
+import { Slider, HomeBunner, HomeContext } from 'components';
 
 const Home = () => {
   return (
     <>
       {/* <Slider /> */}
       <HomeBunner />
+      <HomeContext />
     </>
   );
 };
